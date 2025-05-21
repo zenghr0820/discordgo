@@ -59,6 +59,9 @@ type Message struct {
 	// The content of the message.
 	Content string `json:"content"`
 
+	// The nonce of the message.
+	Nonce string `json:"nonce"`
+
 	// The time at which the messsage was sent.
 	// CAUTION: this field may be removed in a
 	// future API version; it is safer to calculate
